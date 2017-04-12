@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="C:\Users\bravo\AndroidStudioProjects\ars automation1\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="6412eccfcec63332fb4f62a716b2589fe557d8d2">
+        <dex dex="C:\Users\bravo\AndroidStudioProjects\ars automation1\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_f38f4faf74f8fc221dafa858a99bfac557430d6b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\bravo\AndroidStudioProjects\ars automation1\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ffcf32ae9ebde5abcb830fc7aaf96af19cf76bec">
+        <dex dex="C:\Users\bravo\AndroidStudioProjects\ars automation1\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_347f5fb298c79e02aca18a51e377b02f489c6acb\classes.dex" />
+    </item>
+
+</items>

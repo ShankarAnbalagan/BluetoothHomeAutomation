@@ -1,0 +1,84 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\bravo\AndroidStudioProjects\ars automation1\app\src\main\AndroidManifest.xml:2:1-49:12
+	package
+		ADDED from C:\Users\bravo\AndroidStudioProjects\ars automation1\app\src\main\AndroidManifest.xml:3:7-35
+		INJECTED from C:\Users\bravo\AndroidStudioProjects\ars automation1\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\bravo\AndroidStudioProjects\ars automation1\app\src\main\AndroidManifest.xml
+	android:versionName
+		ADDED from C:\Users\bravo\AndroidStudioProjects\ars automation1\app\src\main\AndroidManifest.xml:5:7-32
+		INJECTED from C:\Users\bravo\AndroidStudioProjects\ars automation1\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\bravo\AndroidStudioProjects\ars automation1\app\src\main\AndroidManifest.xml
+	android:versionCode
+		ADDED from C:\Users\bravo\AndroidStudioProjects\ars automation1\app\src\main\AndroidManifest.xml:4:7-30
+		INJECTED from C:\Users\bravo\AndroidStudioProjects\ars automation1\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\bravo\AndroidStudioProjects\ars automation1\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\bravo\AndroidStudioProjects\ars automation1\app\src\main\AndroidManifest.xml:2:11-69
+uses-sdk
+ADDED from C:\Users\bravo\AndroidStudioProjects\ars automation1\app\src\main\AndroidManifest.xml:6:5-43
+	android:targetSdkVersion
+		INJECTED from C:\Users\bravo\AndroidStudioProjects\ars automation1\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\bravo\AndroidStudioProjects\ars automation1\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		ADDED from C:\Users\bravo\AndroidStudioProjects\ars automation1\app\src\main\AndroidManifest.xml:6:15-40
+		INJECTED from C:\Users\bravo\AndroidStudioProjects\ars automation1\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\bravo\AndroidStudioProjects\ars automation1\app\src\main\AndroidManifest.xml
+uses-permission#android.permission.BLUETOOTH_ADMIN
+ADDED from C:\Users\bravo\AndroidStudioProjects\ars automation1\app\src\main\AndroidManifest.xml:7:5-74
+	android:name
+		ADDED from C:\Users\bravo\AndroidStudioProjects\ars automation1\app\src\main\AndroidManifest.xml:7:22-71
+uses-permission#android.permission.BLUETOOTH
+ADDED from C:\Users\bravo\AndroidStudioProjects\ars automation1\app\src\main\AndroidManifest.xml:8:5-68
+	android:name
+		ADDED from C:\Users\bravo\AndroidStudioProjects\ars automation1\app\src\main\AndroidManifest.xml:8:22-65
+application
+ADDED from C:\Users\bravo\AndroidStudioProjects\ars automation1\app\src\main\AndroidManifest.xml:10:5-48:19
+	android:label
+		ADDED from C:\Users\bravo\AndroidStudioProjects\ars automation1\app\src\main\AndroidManifest.xml:10:48-80
+	android:icon
+		ADDED from C:\Users\bravo\AndroidStudioProjects\ars automation1\app\src\main\AndroidManifest.xml:10:18-47
+activity#com.ars.automation.ARSAutomationActivity
+ADDED from C:\Users\bravo\AndroidStudioProjects\ars automation1\app\src\main\AndroidManifest.xml:11:9-17:20
+	android:label
+		ADDED from C:\Users\bravo\AndroidStudioProjects\ars automation1\app\src\main\AndroidManifest.xml:12:19-51
+	android:name
+		ADDED from C:\Users\bravo\AndroidStudioProjects\ars automation1\app\src\main\AndroidManifest.xml:11:19-56
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from C:\Users\bravo\AndroidStudioProjects\ars automation1\app\src\main\AndroidManifest.xml:13:13-16:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\bravo\AndroidStudioProjects\ars automation1\app\src\main\AndroidManifest.xml:14:17-69
+	android:name
+		ADDED from C:\Users\bravo\AndroidStudioProjects\ars automation1\app\src\main\AndroidManifest.xml:14:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\bravo\AndroidStudioProjects\ars automation1\app\src\main\AndroidManifest.xml:15:17-77
+	android:name
+		ADDED from C:\Users\bravo\AndroidStudioProjects\ars automation1\app\src\main\AndroidManifest.xml:15:27-74
+activity#com.ars.automation.menu
+ADDED from C:\Users\bravo\AndroidStudioProjects\ars automation1\app\src\main\AndroidManifest.xml:21:1-27:20
+	android:label
+		ADDED from C:\Users\bravo\AndroidStudioProjects\ars automation1\app\src\main\AndroidManifest.xml:22:19-51
+	android:name
+		ADDED from C:\Users\bravo\AndroidStudioProjects\ars automation1\app\src\main\AndroidManifest.xml:21:11-31
+intent-filter#android.intent.category.DEFAULT+com.ars.automation.MENU
+ADDED from C:\Users\bravo\AndroidStudioProjects\ars automation1\app\src\main\AndroidManifest.xml:23:13-26:29
+action#com.ars.automation.MENU
+ADDED from C:\Users\bravo\AndroidStudioProjects\ars automation1\app\src\main\AndroidManifest.xml:24:17-66
+	android:name
+		ADDED from C:\Users\bravo\AndroidStudioProjects\ars automation1\app\src\main\AndroidManifest.xml:24:25-63
+category#android.intent.category.DEFAULT
+ADDED from C:\Users\bravo\AndroidStudioProjects\ars automation1\app\src\main\AndroidManifest.xml:25:17-76
+	android:name
+		ADDED from C:\Users\bravo\AndroidStudioProjects\ars automation1\app\src\main\AndroidManifest.xml:25:27-73
+activity#com.ars.automation.About
+ADDED from C:\Users\bravo\AndroidStudioProjects\ars automation1\app\src\main\AndroidManifest.xml:32:4-38:20
+	android:label
+		ADDED from C:\Users\bravo\AndroidStudioProjects\ars automation1\app\src\main\AndroidManifest.xml:33:19-51
+	android:name
+		ADDED from C:\Users\bravo\AndroidStudioProjects\ars automation1\app\src\main\AndroidManifest.xml:32:14-35
+intent-filter#android.intent.category.DEFAULT+com.ars.automation.ABOUT
+ADDED from C:\Users\bravo\AndroidStudioProjects\ars automation1\app\src\main\AndroidManifest.xml:34:13-37:29
+action#com.ars.automation.ABOUT
+ADDED from C:\Users\bravo\AndroidStudioProjects\ars automation1\app\src\main\AndroidManifest.xml:35:17-67
+	android:name
+		ADDED from C:\Users\bravo\AndroidStudioProjects\ars automation1\app\src\main\AndroidManifest.xml:35:25-64
