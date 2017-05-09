@@ -24,9 +24,9 @@ public final class R {
         public static final int button1=0x7f060007;
         public static final int high=0x7f060006;
         public static final int light3=0x7f060005;
+        public static final int low=0x7f06000a;
         public static final int med1=0x7f060004;
         public static final int med2=0x7f06000c;
-        public static final int off=0x7f06000a;
         public static final int textView=0x7f06000b;
         public static final int textView1=0x7f060000;
         public static final int textView2=0x7f060001;

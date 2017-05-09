@@ -142,46 +142,206 @@ public class menu extends Activity {
 		});
 
 	    final ToggleButton light3 = (ToggleButton) findViewById(R.id.light3);
-	    light3.setOnClickListener(new View.OnClickListener() {
+		light3.setOnClickListener(new View.OnClickListener() {
 
 			public void onClick(View v) {
 				// TODO Auto-generated method stub
 				if (light3.isChecked()) {
 					if (stat == 1){
-					try {
-						mmOutputStream.write('5');
-					}catch (IOException e) {
-						// TODO Auto-generated catch block
+						try {
+							mmOutputStream.write('5');
+						}catch (IOException e) {
+							// TODO Auto-generated catch block
+							Toast.makeText(menu.this,
+									"Connection succesfully failed!!",
+									Toast.LENGTH_LONG).show();
+							e.printStackTrace();
+						}
+					} else
 						Toast.makeText(menu.this,
 								"Connection succesfully failed!!",
 								Toast.LENGTH_LONG).show();
-						e.printStackTrace();
-					}
-					} else
-						  Toast.makeText(menu.this,
-									"Connection succesfully failed!!",
-									Toast.LENGTH_LONG).show();
 				}else {
 					if (stat == 1){
-					try {
-						mmOutputStream.write('6');
-					}catch (IOException e) {
-						// TODO Auto-generated catch block
+						try {
+							mmOutputStream.write('6');
+						}catch (IOException e) {
+							// TODO Auto-generated catch block
+							Toast.makeText(menu.this,
+									"Connection succesfully failed!!",
+									Toast.LENGTH_LONG).show();
+							e.printStackTrace();
+						}
+					} else
 						Toast.makeText(menu.this,
 								"Connection succesfully failed!!",
 								Toast.LENGTH_LONG).show();
-						e.printStackTrace();
-					}
-					} else
-						  Toast.makeText(menu.this,
-									"Connection succesfully failed!!",
-									Toast.LENGTH_LONG).show();
 				}
 			}
 		});
 
 
-	
+		final ToggleButton low = (ToggleButton) findViewById(R.id.low);
+		low.setOnClickListener(new View.OnClickListener() {
+
+			public void onClick(View v) {
+				// TODO Auto-generated method stub
+				if (low.isChecked()) {
+					if (stat == 1){
+						try {
+							mmOutputStream.write('A');
+						}catch (IOException e) {
+							// TODO Auto-generated catch block
+							Toast.makeText(menu.this,
+									"Connection succesfully failed!!",
+									Toast.LENGTH_LONG).show();
+							e.printStackTrace();
+						}
+					} else
+						Toast.makeText(menu.this,
+								"Connection succesfully failed!!",
+								Toast.LENGTH_LONG).show();
+				}else {
+					if (stat == 1){
+						try {
+							mmOutputStream.write('B');
+						}catch (IOException e) {
+							// TODO Auto-generated catch block
+							Toast.makeText(menu.this,
+									"Connection succesfully failed!!",
+									Toast.LENGTH_LONG).show();
+							e.printStackTrace();
+						}
+					} else
+						Toast.makeText(menu.this,
+								"Connection succesfully failed!!",
+								Toast.LENGTH_LONG).show();
+				}
+			}
+		});
+
+
+		final ToggleButton med1 = (ToggleButton) findViewById(R.id.med1);
+		med1.setOnClickListener(new View.OnClickListener() {
+
+			public void onClick(View v) {
+				// TODO Auto-generated method stub
+				if (med1.isChecked()) {
+					if (stat == 1){
+						try {
+							mmOutputStream.write('C');
+						}catch (IOException e) {
+							// TODO Auto-generated catch block
+							Toast.makeText(menu.this,
+									"Connection succesfully failed!!",
+									Toast.LENGTH_LONG).show();
+							e.printStackTrace();
+						}
+					} else
+						Toast.makeText(menu.this,
+								"Connection succesfully failed!!",
+								Toast.LENGTH_LONG).show();
+				}else {
+					if (stat == 1){
+						try {
+							mmOutputStream.write('D');
+						}catch (IOException e) {
+							// TODO Auto-generated catch block
+							Toast.makeText(menu.this,
+									"Connection succesfully failed!!",
+									Toast.LENGTH_LONG).show();
+							e.printStackTrace();
+						}
+					} else
+						Toast.makeText(menu.this,
+								"Connection succesfully failed!!",
+								Toast.LENGTH_LONG).show();
+				}
+			}
+		});
+
+
+		final ToggleButton med2 = (ToggleButton) findViewById(R.id.med2);
+		med2.setOnClickListener(new View.OnClickListener() {
+
+			public void onClick(View v) {
+				// TODO Auto-generated method stub
+				if (med2.isChecked()) {
+					if (stat == 1){
+						try {
+							mmOutputStream.write('E');
+						}catch (IOException e) {
+							// TODO Auto-generated catch block
+							Toast.makeText(menu.this,
+									"Connection succesfully failed!!",
+									Toast.LENGTH_LONG).show();
+							e.printStackTrace();
+						}
+					} else
+						Toast.makeText(menu.this,
+								"Connection succesfully failed!!",
+								Toast.LENGTH_LONG).show();
+				}else {
+					if (stat == 1){
+						try {
+							mmOutputStream.write('F');
+						}catch (IOException e) {
+							// TODO Auto-generated catch block
+							Toast.makeText(menu.this,
+									"Connection succesfully failed!!",
+									Toast.LENGTH_LONG).show();
+							e.printStackTrace();
+						}
+					} else
+						Toast.makeText(menu.this,
+								"Connection succesfully failed!!",
+								Toast.LENGTH_LONG).show();
+				}
+			}
+		});
+
+
+		final ToggleButton high = (ToggleButton) findViewById(R.id.high);
+		high.setOnClickListener(new View.OnClickListener() {
+
+			public void onClick(View v) {
+				// TODO Auto-generated method stub
+				if (high.isChecked()) {
+					if (stat == 1){
+						try {
+							mmOutputStream.write('G');
+						}catch (IOException e) {
+							// TODO Auto-generated catch block
+							Toast.makeText(menu.this,
+									"Connection succesfully failed!!",
+									Toast.LENGTH_LONG).show();
+							e.printStackTrace();
+						}
+					} else
+						Toast.makeText(menu.this,
+								"Connection succesfully failed!!",
+								Toast.LENGTH_LONG).show();
+				}else {
+					if (stat == 1){
+						try {
+							mmOutputStream.write('H');
+						}catch (IOException e) {
+							// TODO Auto-generated catch block
+							Toast.makeText(menu.this,
+									"Connection succesfully failed!!",
+									Toast.LENGTH_LONG).show();
+							e.printStackTrace();
+						}
+					} else
+						Toast.makeText(menu.this,
+								"Connection succesfully failed!!",
+								Toast.LENGTH_LONG).show();
+				}
+			}
+		});
+
+
+
 	}
 	
 	
@@ -205,7 +365,7 @@ public class menu extends Activity {
         {
             for(BluetoothDevice device : pairedDevices)
             {
-                if(device.getName().equals("HC-05"))//FireFly-B1A7Change to the name of your bluetooth module (Case sensitive)
+                if(device.getName().equals(blname))//FireFly-B1A7Change to the name of your bluetooth module (Case sensitive)
                 {
                     mmDevice = device;
                     break;
