@@ -22,6 +22,7 @@ import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
+import android.widget.EditText;
 import android.widget.Toast;
 import android.widget.ToggleButton;
 
@@ -31,8 +32,8 @@ public class menu extends Activity {
     BluetoothDevice mmDevice;
     OutputStream mmOutputStream;
     InputStream mmInputStream;
-	Editable nameb;
-	String blname="HC-05";
+	EditText name;
+	String blname;
 	int stat;
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
@@ -42,14 +43,13 @@ public class menu extends Activity {
 
 
 	
-	    //final EditText name = (EditText) (findViewById(R.id.editText1));
+	    name = (EditText) (findViewById(R.id.editText1));
 	    Button ok = (Button) (findViewById(R.id.button1));
 	    ok.setOnClickListener(new View.OnClickListener() {
 			
 			public void onClick(View v) {
 				// TODO Auto-generated method stub
-			//nameb = name.getText();
-			//blname = nameb.toString();
+			blname=name.getText().toString();
 			try {
 				findBT();
 				stat = 1;
@@ -182,11 +182,25 @@ public class menu extends Activity {
 
 
 		final ToggleButton low = (ToggleButton) findViewById(R.id.low);
+        final ToggleButton med1 = (ToggleButton) findViewById(R.id.med1);
+        final ToggleButton med2 = (ToggleButton) findViewById(R.id.med2);
+        final ToggleButton high = (ToggleButton) findViewById(R.id.high);
+
+
+
 		low.setOnClickListener(new View.OnClickListener() {
 
 			public void onClick(View v) {
 				// TODO Auto-generated method stub
 				if (low.isChecked()) {
+
+
+                    if(med1.isChecked()) med1.toggle();
+					if(med2.isChecked()) med2.toggle();
+					if(high.isChecked()) high.toggle();
+
+
+
 					if (stat == 1){
 						try {
 							mmOutputStream.write('A');
@@ -221,12 +235,17 @@ public class menu extends Activity {
 		});
 
 
-		final ToggleButton med1 = (ToggleButton) findViewById(R.id.med1);
 		med1.setOnClickListener(new View.OnClickListener() {
 
 			public void onClick(View v) {
 				// TODO Auto-generated method stub
 				if (med1.isChecked()) {
+
+
+					if(low.isChecked()) low.toggle();
+					if(med2.isChecked()) med2.toggle();
+					if(high.isChecked()) high.toggle();
+
 					if (stat == 1){
 						try {
 							mmOutputStream.write('C');
@@ -261,12 +280,19 @@ public class menu extends Activity {
 		});
 
 
-		final ToggleButton med2 = (ToggleButton) findViewById(R.id.med2);
+
 		med2.setOnClickListener(new View.OnClickListener() {
 
 			public void onClick(View v) {
 				// TODO Auto-generated method stub
 				if (med2.isChecked()) {
+
+
+					if(med1.isChecked()) med1.toggle();
+					if(low.isChecked()) low.toggle();
+					if(high.isChecked()) high.toggle();
+
+
 					if (stat == 1){
 						try {
 							mmOutputStream.write('E');
@@ -301,12 +327,20 @@ public class menu extends Activity {
 		});
 
 
-		final ToggleButton high = (ToggleButton) findViewById(R.id.high);
+
 		high.setOnClickListener(new View.OnClickListener() {
 
 			public void onClick(View v) {
 				// TODO Auto-generated method stub
 				if (high.isChecked()) {
+
+
+					if(med1.isChecked()) med1.toggle();
+					if(med2.isChecked()) med2.toggle();
+					if(low.isChecked()) low.toggle();
+
+
+
 					if (stat == 1){
 						try {
 							mmOutputStream.write('G');
@@ -383,7 +417,7 @@ public class menu extends Activity {
         mmOutputStream = mmSocket.getOutputStream();
         mmInputStream = mmSocket.getInputStream();
        
-      //  beginListenForData();
+        //beginListenForData();
 
        // myLabel.setText("Bluetooth Opened");
 }
